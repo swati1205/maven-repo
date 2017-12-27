@@ -36,6 +36,9 @@ class Base {
         } else if (r < 0.2) {
             throw new AssumptionViolatedException("skipping");
         }
+        else{
+        fail("failed")
+        }
     }
 
 }
